@@ -120,7 +120,6 @@ app.post("/districts/", authenticateToken, async (request, response) => {
          ${stateId} ,
         '${districtName}',
          ${cases},
-         ${cases},
          ${cured},
          ${active},
          ${deaths}
